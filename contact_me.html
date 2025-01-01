@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<title>RAWRR</title>
+		<link rel="icon" href="pic/Crow_Brooch.webp" type="image/webp">
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="style.css" type="text/css">		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+	</head> 
+	<body>
+	<video class="video-background" autoplay loop muted>
+        <source src="vid/muehehe.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+	<table border="0" align="center" width="1250" style="border-collapse:collapse;">
+		<tr height="50" bgcolor="#901d04">
+			<td border="6" align="center" width="300" ul><a href="index.html"><li style="list-style-image:url(pic/Awakening_Heart.webp)"></li></ul></a></td>
+			<td align="center" width="150"><a href="index.html">HOME</a></td>
+			<td align="center" width="180"><a href="about_me.html">ABOUT ME</a></td>
+			<td align="center" width="180"><a href="hobbies.html">HOBBIES</a></td>
+			<td align="center" width="180"><a href="gallery.html">GALLERY</a></td>
+			<td align="center" width="180"><a href="contact_me.html">CONTACT</a></td>
+			<td ul><li style="list-style-image:url(pic/music.png)" onclick="play()" id="demo">
+				<audio loop id="aud">
+					<source src="aud/vision_oppose.mp3" type="audio/mp3" />
+				</audio></li></ul></td>
+		</tr>
+		
+		<table align="center" height="300" bgcolor="#901d04" width="1170">
+		<tr>
+			<td>
+			<footer>
+			<figure>
+			<form name="form1" method="post" action="mailto:sitinorra641@gmail.com">
+			<h1><p>NaViGatiNG US: </p></h1>
+			<p><h2>FELL FREE TO CONTACT ME ANYTIME, ANYWHERE.<h2></p>
+			<p><h3>First Name: <input type="text" size="30" name="name"> Last Name: <input type="text" size="30" name="name"><h3></p>&nbsp
+			<p><h3>Phone: <input type="text" size="30" name="phone"> Email: <input type="text" size="30" name="email"></h3></p>&nbsp
+			<p><h3>SPM: <input type="checkbox" name="spm" value="spm"> DIPLOMA: <input type="checkbox" name="diploma" value="diploma">
+			DEGREE: <input type="checkbox" name="degree" value="degree"></h3></p>&nbsp
+			<p><h3>MALE: <input type="radio" name="gender" value="male"> FEMALE: <input type="radio" name="gender" value="female"></h3></p>&nbsp
+			
+					<p><h3>Your Current State: <select name="state">
+						<option value="Kel">Kelantan</option>
+						<option value="Sel">Selangor</option>
+						<option value="Ter">Terengganu</option>
+						<option value="PP">Pulau Pinanh</option>
+						<option value="Per">Perak</option>
+						<option value="Joh">Johor</option>
+						<option value="Ked">Kedah</option>
+						<option value="Pah">Pahang</option>
+						<option value="Sar">Sarawak</option>
+						<option value="Sab">Sabah</option>
+						<option value="N. Sem">Negeri Sembilan</option>
+						<option value="KL">Kuala Lumpur</option>
+						<option value="Mel">Melaka</option>
+						<option value="Per">Perlis</option>
+						</select></h3></p>&nbsp
+	
+			<p><h3><input type="file" name="gambar"></h3></p>&nbsp
+			
+			
+			
+			<h3>Subject: <textarea cols="40" rows="5" name="subject"></textarea> <input id="submit" name="submit" type="submit" value="submit"></h3>&nbsp
+			
+			
+			<marquee width="1250" bgcolor="white"  scrollamount="8">THANK YOU FOR STOP BY. SEE YOU AGAIN!!!.</marquee>
+			<p>&copy; <span id="year"></span> RAWRR. All rights reserved.<a href="mailto:sitinorra641@gmail.com">@sitinorra641@gmail.com</a></p>
+			</form>
+			</footer>
+		</td>
+		</tr>
+
+<script>
+	var audio = document.getElementById("aud");
+	var butn = document.getElementById("demo");
+	butn.style.background = "url(pic/close_music.png)no-repeat";
+	
+	function play() {
+		if(audio.paused) {
+			audio.play();
+			butn.style.background = "url(pic/music.png)no-repeat";
+		}
+		
+		else {
+			audio.pause();
+			butn.style.background = "url(pic/close_music.png)no-repeat";
+		}
+	}
+</script>
+	</body>
+</html>
